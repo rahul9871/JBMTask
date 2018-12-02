@@ -41,7 +41,11 @@ Details of each source code -
 
 8. retrain.py - for transfer learning, I have also used pertained inception ImageNet model and trained on the dataset provided. I just downloaded this script from tensorflow git repo and use it as guided in tensorflow guide. below is the command I have used for retraining -
 
-	>> python3 retrain.py --image_dir=dataSet_dir --saved_model_dir=model_path --bottleneck_dir=bottleneck_path --output_graph=output_graph_path
+	>> python3 retrain.py \
+		--image_dir=dataSet_dir \
+		--saved_model_dir=model_path \
+		--bottleneck_dir=bottleneck_path \
+		--output_graph=output_graph_path
 
 	
 
